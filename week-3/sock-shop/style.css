@@ -1,7 +1,16 @@
 body {
 	text-align: center;
-	background: url('eaford44.github.io/week-3/Happy-Socks-1.jpg');
+	font-weight: bold;
+	background: url('happy-socks-1.jpg');
 	background-size: cover;
-	color:#fff;
+	background-repeat: no-repeat;
+    background-attachment: fixed;
+	color:#FF00FF;
 	font-family: Helvetica;
+}
+h1 {
+	color:#000;
+}
+h2 {
+	color:#000;
 }
