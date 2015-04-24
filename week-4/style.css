@@ -1,0 +1,19 @@
+body {
+	text-align: center;
+	font-weight: bold;
+	background: url('happy-socks-1.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+    background-attachment: fixed;
+	color:#FF00FF;
+	font-family:'Montserrat', sans-serif;
+}
+h1 {
+	color:#000;
+	font-family: 'Montserrat', sans-serif;
+}
+h2 {
+	color:#000;
+}
+ul {
+    list-style-type: square;
