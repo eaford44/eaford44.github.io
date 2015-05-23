@@ -1,0 +1,73 @@
+body {
+	font-size: 18px;
+	font-family: 'Open Sans', sans-serif;
+}
+
+h1,h2 {
+	text-transform: uppercase;
+	border-bottom: 4px solid black;
+	display: inline-block;
+	font-weight: 400;
+} 
+
+h1 {
+	font-size: 2em;
+}
+
+h2 {
+	font-size: 1.5em;
+	padding: .8em 0;
+  color: #fffebb;
+  border-bottom-color: #fffebb;
+}
+
+#logo {
+	display: block;
+	margin: 0 auto;
+    width: 200px;
+    clear: both;
+    float:left;
+} 
+
+#sunsetpic
+display:block;
+margin: 0 auto;
+padding-left 20em;
+}
+
+nav {
+	font-size: 1.8em;
+ 	float: left;
+  text-align: center
+  margin: 25%;
+  padding-left: 20em;
+} 
+
+nav a {	
+	text-decoration: none;
+	color: black;
+	margin: 1.8em;
+	display: inline-block;
+}
+
+section {
+  background: #222;
+  color: #fff;
+  overflow: auto;
+}
+
+#project 1 {
+  display: block;
+  width: 100%;
+  margin: 0 auto;
+  background: #fffebb;
+}
+#project 2 {
+  float: left;
+}
+
+footer {
+	text-align: center;
+	padding: 1em 0;
+  	clear: both;
+}
