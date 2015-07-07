@@ -4,11 +4,8 @@ body {
 	font-family: 'Open Sans', sans-serif;
 }
 nav {
-	font-size: 1.8em;
- 	float: left;
-	text-align: center
-	margin: 25%;
-	padding-left: 20em;
+	font-size: 1em;
+ 	float: right;
 } 
 
 nav a {	
@@ -20,7 +17,8 @@ nav a {
 section {
 	background: #fff;
 	color: #222;
-	overflow: auto;
+	max-width:1200px;
+	margin:auto;
 }
 
 footer {
@@ -30,35 +28,25 @@ footer {
 }
 h1,h2 {
 	text-transform: uppercase;
-	display: block;
 	font-weight: 400;
 } 
 
 h1 {
-	font-size: 18px;
- 	float: left;
-	padding-left: 2em;
+	font-size: 2em;
 }
 
 h2 {
-	font-size: 18px;
+	font-size: 1em;
 	padding: .8em 0;
 	color: #fffebb;
 	border-bottom-color: #fffebb;
 }
 p {
-  	text-transform: lowercase;
    	float: left;
 	text-align:left;
 	padding: 2em 0;
-	padding-right: 20em;
 }
 img {
-	padding:30px;
-	max-height: 150px;
-	max-width: 150px;
-	width: auto;
-	height: 800px;
 }
 
 #logo {
