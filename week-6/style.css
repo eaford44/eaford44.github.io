@@ -1,70 +1,14 @@
+* { margin:0; padding:0; box-sizing:border-box; }
 body {
 	font-size: 18px;
 	font-family: 'Open Sans', sans-serif;
 }
-
-h1,h2 {
-	text-transform: uppercase;
-	display: block;
-	font-weight: 400;
-
-} 
-
-h1 {
-	font-size: 18px;
-
- 	float: left;
-  padding-left: 2em;
-}
-
-h2 {
-	font-size: 18px;
-	padding: .8em 0;
-  color: #fffebb;
-  border-bottom-color: #fffebb;
-}
-p {
-  display:inline-block;
-  	font-size: 11px;
-  	text-transform: lowercase;
-   	float: left;
-  text-align:left;
-  padding: 2em 0;
-  padding-right: 20cm;
-}
-img {
-  padding:30px;
-  max-height: 150px;
-  max-width: 150px;
-  width: auto;
-  height: 800px;
-}
-
-#logo {
-	display: block;
-	margin: 0 auto;
-    width: 200px;
-    clear: both;
-    float:left;
-} 
-
-#sunsetpic
-display:block;
-margin: 0 auto;
-padding-left 20em;
-}
-
-#bio
-display:block;
-margin: 0 auto;
-padding-left: 20em;
-
 nav {
 	font-size: 1.8em;
  	float: left;
-  text-align: center
-  margin: 25%;
-  padding-left: 20em;
+	text-align: center
+	margin: 25%;
+	padding-left: 20em;
 } 
 
 nav a {	
@@ -73,11 +17,10 @@ nav a {
 	margin: 1.8em;
 	display: inline-block;
 }
-
 section {
-  background: #fff;
-  color: #222;
-  overflow: auto;
+	background: #fff;
+	color: #222;
+	overflow: auto;
 }
 
 footer {
@@ -85,7 +28,65 @@ footer {
 	padding: 1em 0;
   	clear: both;
 }
-.left {
-  text-align: left;
+h1,h2 {
+	text-transform: uppercase;
+	display: block;
+	font-weight: 400;
+} 
 
+h1 {
+	font-size: 18px;
+ 	float: left;
+	padding-left: 2em;
+}
+
+h2 {
+	font-size: 18px;
+	padding: .8em 0;
+	color: #fffebb;
+	border-bottom-color: #fffebb;
+}
+p {
+  	text-transform: lowercase;
+   	float: left;
+	text-align:left;
+	padding: 2em 0;
+	padding-right: 20em;
+}
+img {
+	padding:30px;
+	max-height: 150px;
+	max-width: 150px;
+	width: auto;
+	height: 800px;
+}
+
+#logo {
+	display: block;
+	margin: 0 auto;
+	width: 200px;
+	float:left;
+} 
+
+#sunsetpic {
+	display:block;
+	margin: 0 auto;
+	padding-left: 20em;
+}
+
+#bio {
+	display:block;
+	margin: 0 auto;
+	padding-left: 20em;
+}
+
+.left {
+	text-align: left;
+}
+.clearfix:after { 
+	content: "."; 
+	visibility: hidden; 
+	display: block; 
+	height: 0; 
+	clear: both;
 }
