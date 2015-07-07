@@ -14,6 +14,7 @@ h1 {
 	font-size: 18px;
 
  	float: left;
+  padding-left: 2em;
 }
 
 h2 {
@@ -28,7 +29,15 @@ p {
   	text-transform: lowercase;
    	float: left;
   text-align:left;
-  padding: .8em 0;
+  padding: 2em 0;
+  padding-right: 20cm;
+}
+img {
+  padding:30px;
+  max-height: 150px;
+  max-width: 150px;
+  width: auto;
+  height: 800px;
 }
 
 #logo {
@@ -66,8 +75,8 @@ nav a {
 }
 
 section {
-  background: #222;
-  color: #fff;
+  background: #fff;
+  color: #222;
   overflow: auto;
 }
 
@@ -75,4 +84,8 @@ footer {
 	text-align: center;
 	padding: 1em 0;
   	clear: both;
+}
+.left {
+  text-align: left;
+
 }
